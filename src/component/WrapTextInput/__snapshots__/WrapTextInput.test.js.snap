@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WrapTextInput Rendering Mount rendering 1`] = `
+<WrapTextInput
+  placeholder="Enter email"
+>
+  <View
+    style={
+      Object {
+        "alignContent": "stretch",
+        "alignItems": "center",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignContent": "stretch",
+          "alignItems": "center",
+          "display": "flex",
+          "flexDirection": "column",
+          "justifyContent": "center",
+        }
+      }
+    >
+      <Component
+        allowFontScaling={true}
+        onChangeText={[Function]}
+        placeholder="Enter email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "borderColor": "#b3b5b4",
+            "borderRadius": 5,
+            "borderWidth": 2,
+            "width": "100%",
+          }
+        }
+        underlineColorAndroid="transparent"
+      >
+        <TextInput
+          allowFontScaling={true}
+          onChangeText={[Function]}
+          placeholder="Enter email"
+          rejectResponderTermination={true}
+          style={
+            Object {
+              "borderColor": "#b3b5b4",
+              "borderRadius": 5,
+              "borderWidth": 2,
+              "width": "100%",
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </Component>
+      <ValidText
+        isValid={false}
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "alignSelf": "flex-start",
+                "fontSize": 17,
+                "marginTop": 10,
+              },
+              Object {
+                "color": "red",
+              },
+            ]
+          }
+        >
+          <Text
+            style={
+              Array [
+                Object {
+                  "alignSelf": "flex-start",
+                  "fontSize": 17,
+                  "marginTop": 10,
+                },
+                Object {
+                  "color": "red",
+                },
+              ]
+            }
+          >
+            Your email you enter wrong
+          </Text>
+        </Text>
+      </ValidText>
+    </View>
+  </View>
+</WrapTextInput>
+`;

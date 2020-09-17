@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Rendering should be match in snapshot 1`] = `
+<ForwardRef
+  onPress={[Function]}
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderRadius": 10,
+        "display": "flex",
+        "flexDirection": "row",
+        "height": 60,
+        "justifyContent": "center",
+      },
+      Object {
+        "backgroundColor": "#3432a8",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "white",
+        "fontSize": 20,
+      }
+    }
+  >
+    Click me
+  </Text>
+</ForwardRef>
+`;
